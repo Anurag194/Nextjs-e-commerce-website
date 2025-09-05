@@ -33,7 +33,7 @@ const PaymentForm = () => {
           className="border-b border-gray-200 py-2 outline-none text-sm"
           type="text"
           id="cardHolder"
-          placeholder="John Doe"
+          placeholder="Anurag kirad"
           {...register("cardHolder")}
         />
         {errors.cardHolder && (
@@ -48,7 +48,7 @@ const PaymentForm = () => {
           className="border-b border-gray-200 py-2 outline-none text-sm"
           type="text"
           id="cardNumber"
-          placeholder="123456789123"
+          placeholder="+91-0000000"
           {...register("cardNumber")}
         />
         {errors.cardNumber && (

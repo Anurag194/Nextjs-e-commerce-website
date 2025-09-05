@@ -67,7 +67,7 @@ const ShippingForm = ({
           className="border-b border-gray-200 py-2 outline-none text-sm"
           type="text"
           id="phone"
-          placeholder="123456789"
+          placeholder="844708467"
           {...register("phone")}
         />
         {errors.phone && (
@@ -82,7 +82,7 @@ const ShippingForm = ({
           className="border-b border-gray-200 py-2 outline-none text-sm"
           type="text"
           id="address"
-          placeholder="123 Main St, Anytown"
+          placeholder="B-44 Rohini Sector-1, New Delhi"
           {...register("address")}
         />
         {errors.address && (
@@ -97,7 +97,7 @@ const ShippingForm = ({
           className="border-b border-gray-200 py-2 outline-none text-sm"
           type="text"
           id="city"
-          placeholder="New York"
+          placeholder="Delhi"
           {...register("city")}
         />
         {errors.city && (
